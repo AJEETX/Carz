@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CarSales.Homework.Web.Models.Car>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Cars</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Make)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PriceType)
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Make)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Model)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PriceType)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.CarID }) 
+        </td>
+    </tr>
+}
+
+</table>
