@@ -12,5 +12,4 @@
 
 Having any trouble? Check out our [documentation](https://github.com/AJEETX/Carz/blob/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
 
->![Downloads](https://img.shields.io/badge/downloads-100-blue.svg?style=plastic)
 > [![HitCount](http://hits.dwyl.io/ajeetx/Carz/projects/1.svg)](http://hits.dwyl.io/ajeetx/Carz/projects/1)
