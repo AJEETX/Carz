@@ -1,18 +1,15 @@
-# Carz
-Display list of cars and their details 
+# Carz ![GitHub release](https://img.shields.io/github/release/ajeetx/Carz.svg?style=for-the-badge)
+
+## Display list of cars and their details 
+	
+| Release | Build | .Net  | Dependency |
+| ---     | ---   | ---    | ---       |
+|![Wrapper](https://img.shields.io/badge/Carz-display-blue.svg) | [![Build Status](https://travis-ci.org/AJEETX/Carz.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/Carz) | [![.Net Framework](https://img.shields.io/badge/DotNet-4.5.2-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=42642) | [![dependencies Status](https://img.shields.io/badge/dependency-none-brightgreen.svg?style=plastic)](https://img.shields.io/badge/dependency-none-brightgreen.svg) |
 
 
-> [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
-
-> [![Build Status](https://travis-ci.org/AJEETX/Carz.png?branch=master)](https://travis-ci.org/AJEETX/Carz)
-
-> [![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://github.com/AJEETX/Carz/edit/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
-
+Having any trouble? Check out our [documentation](https://github.com/AJEETX/Carz/blob/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
 
 > [![HitCount](http://hits.dwyl.io/ajeetx/Carz/projects/1.svg)](http://hits.dwyl.io/ajeetx/Carz/projects/1)
-
-
