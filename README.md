@@ -1,10 +1,10 @@
 # Carz ![GitHub release](https://img.shields.io/github/release/ajeetx/Carz.svg?style=for-the-badge)
-
+![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/Carz.svg?style=plastic)
 ![Website](https://img.shields.io/website-ONLINE-OFFLINE-green-red/http/ajeetx.github.io/Carz.svg?label=Carz-website&style=plastic)
 
-| Release | Build | .Net Version | Dependency | Language | Repo Size  |
+| Commit | Build | .Net Version | Languages | Language | Repo Size  |
 | ---     | ---   | ---    | ---      | ---      | ---        | 
-|![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/Carz.svg?style=plastic)  | [![Build Status](https://travis-ci.org/AJEETX/Carz.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/Carz) | [![.Net Framework](https://img.shields.io/badge/DotNet-4.5.2-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=42642) | [![dependencies Status](https://img.shields.io/badge/dependency-none-brightgreen.svg?style=plastic)](https://img.shields.io/badge/dependency-none-brightgreen.svg) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/Carz.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/Carz.svg)
+| ![Github commits (since latest release)](https://img.shields.io/github/commits-since/ajeetx/carz/latest.svg) | [![Build Status](https://travis-ci.org/AJEETX/Carz.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/Carz) | [![.Net Framework](https://img.shields.io/badge/DotNet-4.5.2-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=42642) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/Carz.svg?style=plastic) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/Carz.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/Carz.svg)
 
 # Purpose !!!
 
