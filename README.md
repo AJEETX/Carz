@@ -1,5 +1,4 @@
-# Carz ![GitHub release](https://img.shields.io/github/release/ajeetx/Carz.svg?style=for-the-badge)
-![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/Carz.svg?style=plastic)
+# Carz ![GitHub release](https://img.shields.io/github/release/ajeetx/Carz.svg?style=for-the-badge) ![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/Carz.svg?style=plastic)
 ![Website](https://img.shields.io/website-ONLINE-OFFLINE-green-red/http/ajeetx.github.io/Carz.svg?label=Carz-website&style=plastic)
 
 | Commit | Build | .Net Version | Languages | Language | Repo Size  |
