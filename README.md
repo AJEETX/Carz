@@ -1,4 +1,4 @@
-# Carz ![GitHub release](https://img.shields.io/github/release/ajeetx/Carz.svg?style=for-the-badge)![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)
+# Carz ![GitHub release](https://img.shields.io/github/release/ajeetx/Carz.svg?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)
 
 | ![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/Carz.svg?style=plastic) | ![Website](https://img.shields.io/website-stable-offline-green-red/http/ajeetx.github.io/Carz.svg?label=status&style=plastic)|[![Build Status](https://travis-ci.org/AJEETX/Carz.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/Carz)
 |  --- | ---     | ---   |
