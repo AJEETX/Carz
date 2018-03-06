@@ -18,7 +18,7 @@
 
 | App Name| Type | Comments|
 | --- | --- | --- |
-| CarSales.Homework.Web| Class Library | asp.net mvc |
+| CarSales.Homework.Web| asp.net mvc | It is startup project |
 | CarSales.Test| Test App |to-do |
 
 
