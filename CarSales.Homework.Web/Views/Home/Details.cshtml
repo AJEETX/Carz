@@ -4,130 +4,97 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h4>Car Details</h4>
 @using (Html.BeginForm("Feedback", "Home", FormMethod.Post, new { @class = "feedback" }))
 {
-<div>
-    <h4>Car</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>@Html.HiddenFor(model=>model.Car.CarID)</dt>
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.Make)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.Make, new {@class="txtclass", @readonly= "readonly"})
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.Model)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.Model, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.Year)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.Year, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.PriceType)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.PriceType, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-@if (@Model.Car!=null && @Model.Car.PriceType.ToString() == "EGC")
-{
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.EgcPrice)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.EgcPrice, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-}
-@if (@Model.Car != null && @Model.Car.PriceType.ToString() == "DAP") {
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.DapPrice)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.DapPrice, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-    }
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.Email)
-        </dt>
-
-        <dd>
-            @Html.TextBoxFor(model => model.Car.Email, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-        @if (@Model.Car !=null && @Model.Car.Dealer.ToString() == "FALSE")
-        {
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>@Html.HiddenFor(model => model.Car.CarID)</dt>
             <dt>
-                @Html.DisplayNameFor(model => model.Car.ContactName)
+                @Html.DisplayNameFor(model => model.Car.Make)  = 
+                @Html.TextBoxFor(model => model.Car.Make, new { @class = "txtclass", @readonly = "readonly" })
             </dt>
 
-            <dd>
-                @Html.TextBoxFor(model => model.Car.ContactName, new { @class = "txtclass", @readonly = "readonly" })
-            </dd>
-
             <dt>
-                @Html.DisplayNameFor(model => model.Car.Phone)
+                @Html.DisplayNameFor(model => model.Car.Model) = 
+                @Html.TextBoxFor(model => model.Car.Model, new { @class = "txtclass", @readonly = "readonly" })
             </dt>
 
-            <dd>
-                @Html.TextBoxFor(model => model.Car.Phone, new { @class = "txtclass", @readonly = "readonly" })
-            </dd>
-        }
-        @if (@Model.Car != null && @Model.Car.Dealer.ToString() == "TRUE")
-        {
             <dt>
-            @Html.DisplayNameFor(model => model.Car.DealerABN)
+                @Html.DisplayNameFor(model => model.Car.Year) = 
+                @Html.TextBoxFor(model => model.Car.Year, new { @class = "txtclass", @readonly = "readonly" })
             </dt>
 
-            <dd>
-            @Html.TextBoxFor(model => model.Car.DealerABN, new { @class = "txtclass", @readonly = "readonly" })
-            </dd>
-        }
-        <dt>
-            @Html.DisplayNameFor(model => model.Car.Comments)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Car.PriceType) = 
+                @Html.TextBoxFor(model => model.Car.PriceType, new { @class = "txtclass", @readonly = "readonly" })
+            </dt>
+            @if (@Model.Car != null && @Model.Car.PriceType.ToString() == "EGC")
+            {
+                <dt>
+                    @Html.DisplayNameFor(model => model.Car.EgcPrice) = 
+                    @Html.TextBoxFor(model => model.Car.EgcPrice, new { @class = "txtclass", @readonly = "readonly" })
+                </dt>
+            }
+            @if (@Model.Car != null && @Model.Car.PriceType.ToString() == "DAP")
+            {
+                <dt>
+                    @Html.DisplayNameFor(model => model.Car.DapPrice) = 
+                    @Html.TextBoxFor(model => model.Car.DapPrice, new { @class = "txtclass", @readonly = "readonly" })
+                </dt>
+            }
+            <dt>
+                @Html.DisplayNameFor(model => model.Car.Email) = 
+                @Html.TextBoxFor(model => model.Car.Email, new { @class = "txtclass", @readonly = "readonly" })
+            </dt>
+            @if (@Model.Car != null && @Model.Car.Dealer.ToString() == "FALSE")
+            {
+                <dt>
+                    @Html.DisplayNameFor(model => model.Car.ContactName) = 
+                    @Html.TextBoxFor(model => model.Car.ContactName, new { @class = "txtclass", @readonly = "readonly" })
+                </dt>
 
-        <dd>
-            @Html.TextBoxFor(model => model.Car.Comments, new { @class = "txtclass", @readonly = "readonly" })
-        </dd>
-    </dl>
-</div>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Car.Phone) = 
+                    @Html.TextBoxFor(model => model.Car.Phone, new { @class = "txtclass", @readonly = "readonly" })
+                </dt>
+            }
+            @if (@Model.Car != null && @Model.Car.Dealer.ToString() == "TRUE")
+            {
+                <dt>
+                    @Html.DisplayNameFor(model => model.Car.DealerABN) = 
+                    @Html.TextBoxFor(model => model.Car.DealerABN, new { @class = "txtclass", @readonly = "readonly" })
+                </dt>
+            }
+            <dt>
+                @Html.DisplayNameFor(model => model.Car.Comments) =
+                @Html.TextBoxFor(model => model.Car.Comments, new { @class = "txtclass", @readonly = "readonly" })
+            </dt>
+        </dl>
+    </div>
 
 
     <fieldset>
         <legend>Feedback form</legend>
         <ul>
             <li>
-                @Html.TextBoxFor(model=>model.Feedback.Name, new { placeholder = "Name", required = "required" })
+                @Html.TextBoxFor(model => model.Feedback.Name, new { placeholder = "Name", required = "required" })
             </li>
             <li>
-                @Html.TextBoxFor(model=>model.Feedback.Email, new { placeholder = "Email", required = "required" })
+                @Html.TextBoxFor(model => model.Feedback.Email, new { placeholder = "Email", required = "required" })
             </li>
             <li>
-               @Html.TextAreaFor(model=>model.Feedback.Message,new { @class = "form-control", placeholder = "Feedback", style = "width: 200px; height: 200px;" })
+                @Html.TextAreaFor(model => model.Feedback.Message, new { @class = "form-control", placeholder = "Feedback", style = "width: 200px; height: 200px;" })
             </li>
         </ul>
         <div>
-            
+
         </div>
     </fieldset>
     <input type="submit" value="Feedback" />
 }
-<br/>
+<br />
 <p>
     @Html.ActionLink("Back to List", "Index")
 </p>

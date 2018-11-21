@@ -15,13 +15,13 @@ namespace CarSales.Homework.Web.Repository
         {
             cars = new List<Car>(){
                 new Car{CarID=1, Make="BMW", Model="500", Year="2010", PriceType="DAP", DapPrice="1000", ContactName="Ajeet",
-                    Email ="at@mail.com",  DealerABN=null, Phone="0400000", Comments="Comments", Dealer=Car.dealer.FALSE},
+                    Email ="at@mail.com",  DealerABN=null, Phone="0400000", Comments="Comments", Dealer=dealer.FALSE},
                  new Car{
                     CarID=2, Make="SUZUKI", Model="VX", Year="2015", PriceType="EGC", EgcPrice="2000", ContactName=null,
-                     Email ="ak@mail.com",  DealerABN="Dealer2", Phone=null, Comments="Comments2",Dealer=Car.dealer.TRUE},
+                     Email ="ak@mail.com",  DealerABN="Dealer2", Phone=null, Comments="Comments2",Dealer=dealer.TRUE},
                  new Car{
                     CarID=3, Make="TOYOTA", Model="Corolla", Year="2012", PriceType="POA",  ContactName="Pragya",
-                     Email ="pt@mail.com",  DealerABN="Dealer3", Phone="0400003", Comments="Comments3",Dealer=Car.dealer.TRUE},
+                     Email ="pt@mail.com",  DealerABN="Dealer3", Phone="0400003", Comments="Comments3",Dealer=dealer.TRUE},
             };
         }
         public IEnumerable<Car> GetAllCarRepo()

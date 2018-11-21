@@ -19,12 +19,12 @@ namespace CarSales.Homework.Web.Models
         public string ContactName { get; set; } //(privately sold cars only)
 
         public string Phone { get; set; } // (privately sold cars only)
-        public string DealerABN { get; set; }
+        public string DealerABN { get; set; }//(dealer cars only)
         public string Comments { get; set; } //(dealer cars only)
-        public enum dealer { TRUE, FALSE }
         public dealer Dealer { get; set; }
 
     }
+    public enum dealer { TRUE, FALSE }
 
     public partial class Feedback
     {
